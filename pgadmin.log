@@ -1,0 +1,60 @@
+2015-02-23 17:06:19 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-02-23 17:08:54 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "jasperdb"
+
+2015-02-23 17:09:07 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "jasperdb"
+
+ERROR  : 16:32:46: ERROR:  syntax error at or near "{"
+LINE 1: select {[Measures].[Total Sale Amount], [Measures].[Number o...
+               ^
+ERROR  : 09:13:12: Error: Error connecting to the server: could not translate host name "orione" to address: Name or service not known
+
+ERROR  : 09:20:11: Error: File '' couldn't be removed (error 2: No such file or directory)
+ERROR  : 09:20:31: Error: File '' couldn't be removed (error 2: No such file or directory)
+ERROR  : 09:59:23: Error: File '' couldn't be removed (error 2: No such file or directory)
+ERROR  : 10:05:21: Error: Error connecting to the server: fe_sendauth: no password supplied
+
+ERROR  : 10:06:13: Error: File '' couldn't be removed (error 2: No such file or directory)
+ERROR  : 10:22:57: Error: File '' couldn't be removed (error 2: No such file or directory)
+ERROR  : 13:27:57: Error: Error connecting to the server: FATAL:  autentica??o do tipo password falhou para usu?rio "siga"
+FATAL:  autentica??o do tipo password falhou para usu?rio "siga"
+
+ERROR  : 13:59:38: Error: File '' couldn't be removed (error 2: No such file or directory)
+ERROR  : 14:45:11: Error: File '' couldn't be removed (error 2: No such file or directory)
+2015-03-16 16:01:12 ERROR  : Error connecting to the server: FATAL:  nenhuma entrada no pg_hba.conf para máquina "10.0.100.157", usuário "siga", banco de dados "postgres", SSL habilitado
+FATAL:  nenhuma entrada no pg_hba.conf para máquina "10.0.100.157", usuário "siga", banco de dados "postgres", SSL desabilitado
+
+2015-03-16 16:02:06 ERROR  : Error connecting to the server: FATAL:  nenhuma entrada no pg_hba.conf para máquina "10.0.100.157", usuário "siga", banco de dados "postgres", SSL habilitado
+FATAL:  nenhuma entrada no pg_hba.conf para máquina "10.0.100.157", usuário "siga", banco de dados "postgres", SSL desabilitado
+
+2015-03-16 16:25:21 ERROR  : ERROR:  schema "prematricula" does not exist
+2015-03-16 16:26:02 ERROR  : Schema node not found for object TABLE patrimonio Erros de conversão [owner: siga]
+2015-03-16 16:26:05 ERROR  : Schema node not found for object TABLE patrimonio Erros de conversão1 [owner: siga]
+2015-03-16 16:42:20 ERROR  : ERROR:  view "extrato_cra" does not exist
+2015-03-16 16:42:23 ERROR  : ERROR:  view "cargahoraria_tipo" does not exist
+2015-03-16 16:42:27 ERROR  : ERROR:  function grade.get_tipo_disciplina(character varying, character varying) does not exist
+2015-03-16 16:42:52 ERROR  : ERROR:  syntax error at or near "."
+LINE 31:    LEFT JOIN LATERAL grade.get_tipo_disciplina(h.matricula::...
+                                   ^
+2015-03-16 16:45:51 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "siga"
+FATAL:  password authentication failed for user "siga"
+
+2015-03-16 16:56:00 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+
+2015-03-16 17:06:44 ERROR  : Error connecting to the server: could not translate host name "orions" to address: Name or service not known
+
+2015-03-17 09:00:36 ERROR  : Schema node not found for object current No such file or [owner: directory]
+2015-03-17 11:54:44 ERROR  : ERROR:  view "cargahoraria_tipo" does not exist
+2015-03-17 11:54:46 ERROR  : ERROR:  function grade.get_tipo_disciplina(character varying, character varying) does not exist
+2015-03-24 09:08:06 ERROR  : Schema node not found for object TABLE patrimonio Erros de conversão [owner: siga]
+2015-03-24 09:08:09 ERROR  : Schema node not found for object TABLE patrimonio Erros de conversão1 [owner: siga]
+2015-04-06 10:51:05 ERROR  : ERRO:  relação "cm_session" não existe
+LINE 1: select * from cm_session limit 10
+                      ^
+2015-04-06 10:53:18 ERROR  : ERRO:  operador não existe: integer = cm_usuario
+LINE 2: on cm_sessao.idusuario = cm_usuario
+                               ^
+HINT:  Nenhum operador corresponde com o nome e o(s) tipo(s) de argumento(s) informados. Você precisa adicionar conversões de tipo explícitas.
